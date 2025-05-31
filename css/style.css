@@ -1569,8 +1569,8 @@ article img.pull-right, article .align-right{
 	}	
 }
 @media (max-width: 408px){
-	.navbar-brand {
-		margin-top: -14%;
+	.navbar-brand-text {
+		font-size: 30px !important;
 	}
 }
 @media (max-width: 767px) {
