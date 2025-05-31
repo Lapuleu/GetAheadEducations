@@ -24,6 +24,9 @@
 .flexslider { margin: 0; padding: 0;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img { width: 100%; display: block; max-height: 300px; object-fit: cover;}
+@media (max-width: 767px){
+  .flexslider .slides img { width: 100%; display: block; max-height: 100px; object-fit: cover;}
+}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
