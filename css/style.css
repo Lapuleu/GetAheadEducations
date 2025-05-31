@@ -458,6 +458,25 @@ bottom: -30px;
     color: #1C1D21;
     font-weight: bold;
 }
+@media (max-width: 767px) {
+	.flex-caption{
+		max-height: 80px;
+	}
+	.item_introtext {
+		max-height: 80px;
+	}
+	.item_introtext span {
+		font-size: 10px;
+	}
+	.item_introtext strong {
+		font-size: 30px;
+		margin-top: -5%;
+	}
+	.item_introtext p {
+		font-size: 10px !important;
+		margin-top: -10%;
+	}
+}
 
 .form-control{
 border-radius:0;
@@ -1559,6 +1578,11 @@ article img.pull-right, article .align-right{
 	.navbar-brand {
 		margin-top: 10px;
 		border-bottom: none;
+		margin-top: -3%;
+	}
+	.navbar-brand-text {
+		margin: -52px 0px 0px 85px !important;
+		font-size: 35px !important;
 	}
 	.navbar-header {
 		margin-top: 20px;
